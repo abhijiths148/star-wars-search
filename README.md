@@ -9,5 +9,5 @@ Follow the steps:
 
 For Login:
 
-`username`: `Luke Skywalker` or any star wars character name
-`password`: `19BBY` (date of birth of the character)
+- `username`: `Luke Skywalker` or any star wars character name
+- `password`: `19BBY` (date of birth of the character)
