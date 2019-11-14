@@ -1,9 +1,9 @@
 # Star wars
 
-In the project directory, you can run:
+In the project directory, you can do the steps:
 
-1. clone or download the project
-2. go inside the `star-wars-search` folder
-3. ### `yarn`
+1. Clone or download the project
+2. Go inside the `star-wars-search` folder
+3. In command line run `yarn`
 
-4. ### `yarn start`
+4. then run `yarn start`
