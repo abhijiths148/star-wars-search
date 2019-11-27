@@ -8,7 +8,6 @@ class Layout extends React.Component {
   render() {
     return (
       <>
-        <br />
         <Switch>
           {routes.map((route, index) => {
             return route.component ? (

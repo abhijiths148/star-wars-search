@@ -4,6 +4,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import configureStore from "./redux";
+import './css/App.css';
 
 import Layout from "./components/layout/Layout";
 
@@ -12,7 +13,8 @@ const { store, persistor } = configureStore();
 class App extends React.Component {
   render() {
     return (
-      <Provider store={store}>
+      <div className="main">
+        <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <HashRouter>
             <Switch>
@@ -21,6 +23,7 @@ class App extends React.Component {
           </HashRouter>
         </PersistGate>
       </Provider>
+      </div>
     );
   }
 }
